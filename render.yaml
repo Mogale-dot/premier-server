@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: admin-peter-server
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
