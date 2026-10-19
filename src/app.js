@@ -5,7 +5,7 @@ const morgan = require('morgan');
 
 const errorHandler = require('./middlewares/error.middleware');
 const authRouter = require("./modules/auth/auth.routes"); 
-const gateRouter = require("./modules/gate/gate.route");
+const gateRouter = require("./modules/qr-code/gate.route"); 
 
 
 const app = express();
